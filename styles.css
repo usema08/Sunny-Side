@@ -253,7 +253,7 @@
 .insta img {
     margin: 30px 20px 30px 20px;
 }
-@media (max-width: 375px) {
+@media (max-width: 450px) {
     .orange{
         background-image: url('./images/mobile/image-header.jpg');
         background-size: 340px;
