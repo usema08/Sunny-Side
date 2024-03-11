@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+.orange{
+    background-image: url('./images/desktop/image-header.jpg');
+    background-size: 1250px;
+    height: 680px;
+    width: auto;
+    
+}
+.orange .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dropdown {
+    margin-right: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.dropdown-toggle {
+    visibility: hidden;
+}
+.orange .navbar .dropdown a  {
+    margin-top: 60px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-family: Barlow;
+    font-weight: 600;
+    color: hsl(207, 11%, 84%)
+}
+.orange .navbar .dropdown button {
+    margin-top: 50px;
+    font-family: Fraunces;
+    font-weight: 900;
+    width: 120px;
+    height: 45px;
+    border: none;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-left: 50px;
+}
+.navbar img {
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.orange .arrow {
+    margin-left: 600px;
+    margin-top: 70px;
+}
+.creatives {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-stretch: ultra-expanded;
+    margin-top: 80px;
+    font-family: Fraunces;
+    font-weight: 900;
+}
+.transform {
+    display: flex;
+    flex-direction: row;
+}
+.transform .trans {
+    width: 50%;
+    height: auto;
+}
+.transform h1 {
+    margin-left: 100px;
+    margin-top: 100px;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.transform h2 {
+    margin-left: 100px;
+    margin-right: 80px;
+    font-family: Barlow;
+    font-size: 17.5px;
+    color: hsl(210, 4%, 67%);
+    font-weight: 600;
+}
+.transform p {
+    margin-left: 100px;
+    margin-right: 80px;
+    font-family: Fraunces;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+.transform u{
+    text-decoration-color: hsl(51, 100%, 49%) ;
+    text-decoration-style: double;
+    text-decoration-thickness: 2px;
+    
+}
+.stand {
+    display: flex;
+    flex-direction: row;
+}
+.stand img {
+    width: 50%;
+    height: auto;
+}
+.stand h2{
+    margin-left: 100px;
+    margin-right: 80px;
+    font-family: Barlow;
+    font-size: 17.5px;
+    color: hsl(210, 4%, 67%);
+    font-weight: 600;
+}
+.stand h1 {
+    margin-left: 100px;
+    margin-top: 100px;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.stand p {
+    margin-left: 100px;
+    margin-right: 80px;
+    font-family: Fraunces;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 50px;
+    
+}
+.stand u {
+    text-decoration-style: double;
+    text-decoration-color: red;
+}
+.graphic {
+    display: flex;
+
+}
+.cherry {
+    background-image: url('./images/desktop/image-graphic-design.jpg');
+    height: 600px;
+    display: inline-block;
+    width: 50%;
+}
+.cherry h1 {
+    text-align: center;
+    margin-top: 400px;
+    font-family: Fraunces;
+    color: hsl(213, 9%, 39%);
+}
+.cherry p {
+    text-align: center;
+    font-family: Barlow;
+    font-weight: 600;
+    margin: 0px 130px 0px 130px;
+    color: hsl(213, 9%, 39%);
+}
+.photo {
+    background-image: url('./images/desktop/image-photography.jpg');
+    height: 600px;
+    display: inline-block;
+    width: 50%;
+}
+.photo h1{
+    text-align: center;
+    margin-top: 400px;
+    font-family: Fraunces;
+    color: hsl(213, 9%, 39%);
+}
+.photo p {
+    text-align: center;
+    font-family: Barlow;
+    font-weight: 600;
+    margin: 0px 130px 0px 130px;
+    color: hsl(213, 9%, 39%);
+}
+.client {
+    text-align: center;
+    margin: 100px auto 80px auto;
+    color: hsl(210, 4%, 67%);
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-stretch: extra-expanded;
+}
+.test {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.test img {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 20%;
+}
+.test .about {
+    text-align: center;
+    font-size: 18px;
+    margin: 80px 50px 80px 50px;
+    font-family: Barlow;
+    font-weight: 600;
+    color: hsl(213, 9%, 39%);
+}
+.test .name {
+    text-align: center;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+}
+.test .desig {
+    text-align: center;
+    font-family: Barlow;
+    font-weight: 600;
+    color: hsl(210, 4%, 67%);
+    font-size: 16px;
+}
+.images {
+    display: flex;
+    background-color: hsl(168, 64%, 67%)
+}
+.images img {
+    width: 25%;
+    height: auto;
+    margin-bottom: none;
+}
+.bg{
+    margin-top: none;
+    background-color: hsl(168, 64%, 67%);
+}
+.footer h1 {
+    text-align: center;
+    font-size: 26px;
+    font-family: Barlow;
+    font-weight: 900;
+    color: hsl(198, 62%, 26%);
+    margin-top: 40px;
+}
+.footer .btm  {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.footer p {
+    margin: 30px;
+    align-items: center;
+    font-family: Barlow;
+    color: hsl(198, 62%, 26%);
+    font-weight: 600;
+}
+.insta{
+    display: flex;
+    justify-content: center;
+}
+.insta img {
+    margin: 30px 20px 30px 20px;
+}
+@media (max-width: 375px) {
+    .orange{
+        background-image: url('./images/mobile/image-header.jpg');
+        background-size: 340px;
+        height: 420px;
+        width: auto;
+        
+    }
+    .creatives {
+        margin: 20px;
+        margin-top: 40px;
+        font-size: 2rem;
+    }
+    .orange .arrow {
+        margin-left: 150px;
+        margin-top: 35px;
+    }
+    .navbar img {
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .transform {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .transform .trans {
+        width: 100%;
+    }
+    .transform h1 {
+        margin: 20px;
+        font-family: Fraunces;
+        font-weight: 700;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .transform h2 {
+        margin: 20px;
+        font-size: 15px;
+    }
+    .transform p { 
+        font-family: Fraunces;
+        font-size: 15px;
+        font-weight: 900;
+        margin: 50px;
+        text-align: center;
+    }
+    .stand {
+        display: flex;
+        flex-direction: column;
+    }
+    .stand img {
+        width: 100%;
+    }
+    .stand h2{
+        margin: 20px;
+        font-family: Barlow;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .stand h1 {
+        margin: 20px;
+        font-family: Fraunces;
+        font-weight: 700;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .stand p {
+        font-family: Fraunces;
+        font-size: 15px;
+        font-weight: 900;
+        margin: 50px;
+        text-align: center;
+    }
+    .graphic {
+        display: flex;
+        flex-direction: column; 
+    }
+    .cherry {
+        background-image: url('./images/mobile/image-graphic-design.jpg');
+        height: 540px;
+        display: inline-block;
+        width: 100%;
+        background-size: 340px;
+    }
+    .cherry h1 {
+        margin-top: 330px;
+        color: hsl(213, 9%, 39%);
+    }
+    .cherry p {
+        margin: 25px;
+    }
+    .photo {
+        background-image: url('./images/mobile/image-photography.jpg');
+        height: 540px;
+        display: inline-block;
+        width: 100%;
+        background-size: 340px;
+    }
+    .photo h1{
+        text-align: center;
+        margin-top: 330px;
+    }
+    .photo p {
+        margin: 30px;
+    }
+    .client {
+        font-size: 1rem;
+    }
+    .test {
+        flex-direction: column;
+    }
+    .test img {
+        margin-top: 30px;
+    }
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .images img {
+        width: 50%;
+        height: auto;
+        margin-bottom: none;
+    }
+    .btm p{
+        margin: 15px;
+        margin-bottom: 40px;
+    }
+    .insta img {
+        margin: 12px;
+        margin-bottom: 30px;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+      }
+      
+      .dropdown-toggle {
+        visibility: visible;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 120px;
+        right: 20px;
+        width: 80%;
+        align-items: center;
+        background-color: #f9f9f9;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+      }
+      
+      .dropdown-menu a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+      }
+      .dropdown-menu button{
+        align-self: center;
+        text-align: center;
+    font-family: Fraunces;
+    font-weight: 900;
+    width: 120px;
+    height: 45px;
+    border: none;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-left: 90px;
+    background: rgb(204, 204, 15);
+    margin-bottom: 20px;
+    margin-left: 20px;
+      }
+      
+      .dropdown-menu a:hover {
+        background-color: #ddd;
+      }
+      
+      .dropdown:hover .dropdown-menu {
+        display: block;
+      }
+      
+}
